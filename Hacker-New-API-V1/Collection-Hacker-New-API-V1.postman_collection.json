@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "4fc4d6c1-b971-416d-a838-70083dbf8d78",
+		"name": "Collection-Hacker-New-API-V1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36255862"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7044/api/BestStories?n=10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7044/api/BestStories?n=10",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7044",
+					"path": [
+						"api",
+						"BestStories"
+					],
+					"query": [
+						{
+							"key": "n",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

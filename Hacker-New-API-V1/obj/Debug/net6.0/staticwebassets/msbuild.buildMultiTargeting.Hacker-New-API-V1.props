@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Hacker-New-API-V1.props" />
+</Project>
